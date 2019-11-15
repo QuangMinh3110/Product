@@ -30,6 +30,10 @@
 				<td><input type="text" name="productname"></td>
 			</tr>
 			<tr>
+				<td class="a">ProductDescription</td>
+				<td><input type="text" name="productdescription"></td>
+			</tr>
+			<tr>
 				<td class="a">Price</td>
 				<td><input type="text" name="price"></td>
 			</tr>

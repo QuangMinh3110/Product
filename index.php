@@ -47,7 +47,7 @@ $pdo = new PDO("pgsql:" . sprintf(
     ltrim($db["path"], "/")
 ));
 	//your sql query
-	$sql = "SELECT * FROM Product";
+	$sql = "SELECT * FROM product";
 	$stmt = $pdo->prepare($sql);
 	//execute the query on the server and return the result set
 	$stmt->setFetchMode(PDO::FETCH_ASSOC);
@@ -63,6 +63,7 @@ $pdo = new PDO("pgsql:" . sprintf(
 			<tr>
 				<th class="b">ProductID</th>
 				<th class="b">ProductName</th>
+				<th class="b">ProductDescription</th>
 				<th class="b">Price</th>
 			</tr>
 		</thead>
@@ -75,6 +76,7 @@ $pdo = new PDO("pgsql:" . sprintf(
 				<tr>
 					<td class="b"><?=$row["productid"]?></td>
 					<td class="b"><?=$row["productname"]?></td>
+					<td class="b"><?=$row["productdescription"]?></td>
 					<td class="b"><?=$row["price"]?></td>
 				</tr>
 				</form>
