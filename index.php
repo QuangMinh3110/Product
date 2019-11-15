@@ -64,7 +64,7 @@ $pdo = new PDO("pgsql:" . sprintf(
 				<th class="b">ProductID</th>
 				<th class="b">ProductName</th>
 				<th class="b">ProductDescription</th>
-				<th class="b">Price</th>
+				<th class="b">Price($)</th>
 			</tr>
 		</thead>
 		</body>
