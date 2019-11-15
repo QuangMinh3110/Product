@@ -58,8 +58,8 @@ $pdo = new PDO("pgsql:" . sprintf(
 
 <table class="tablebordered" align="center" border="2">
 		<thead class="theaddark">
-			<tr><th class="a" colspan="3"><b>PRODUCT</b></th></tr>
-			<tr><th class="c" colspan="3"><b>Showing all Product</b></th></tr>
+			<tr><th class="a" colspan="4"><b>PRODUCT</b></th></tr>
+			<tr><th class="c" colspan="4"><b>Showing all Product</b></th></tr>
 			<tr>
 				<th class="b">ProductID</th>
 				<th class="b">ProductName</th>
@@ -85,10 +85,10 @@ $pdo = new PDO("pgsql:" . sprintf(
 		?>
 	</tbody>
 			<tr>
-				<th colspan="3" class="d"><a href="Add.php" class="btn primary" role="button">Add new Product Information...</a></th>
+				<th colspan="4" class="d"><a href="Add.php" class="btn primary" role="button">Add new Product Information...</a></th>
 			</tr>
 			<tr>
-				<th colspan="3" class="d"><a href="delete.php" class="btn primary" role="button">Delete a Product Information...</a></th>
+				<th colspan="4" class="d"><a href="delete.php" class="btn primary" role="button">Delete a Product Information...</a></th>
 			</tr>
 	</table>
 </body>
