@@ -32,7 +32,7 @@
 		    'productdescription' => $productdescription,
 		    'price' => $price,
 		];
-		$stmt =  $pdo->prepare("INSERT INTO student(productid, productname, productdescription, price) VALUES (:productid,:productname,:productdescription,:price)");
+		$stmt =  $pdo->prepare("INSERT INTO product(productid, productname, productdescription, price) VALUES (:productid,:productname,:productdescription,:price)");
 		$stmt->execute($data);
 
 	 ?>
